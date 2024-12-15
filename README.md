@@ -1,4 +1,4 @@
-# LACT stack
+# ⚡ LACT stack
 
 ## Overview
 
