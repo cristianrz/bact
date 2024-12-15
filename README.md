@@ -39,14 +39,14 @@ lighttpd-app/
 ├── data/
 │   ├── users.txt         # User data (username:password format)
 │   └── sessions.txt      # Session data (session_id:username format)
-├── public/
-│   ├── index.html        # Main HTML file (default page)
-│   └── cgi-bin/
-│       ├── hello.cgi     # Example AWK CGI script
-│       ├── login.cgi     # Login handler
-│       ├── verify_login.cgi # Verifies user credentials
-│       ├── protected_page.cgi # Example of restricted content
-│       └── logout.cgi    # Logout handler
+└── public/
+    ├── index.html        # Main HTML file (default page)
+    └── cgi-bin/
+        ├── hello.cgi     # Example AWK CGI script
+        ├── login.cgi     # Login handler
+        ├── verify_login.cgi # Verifies user credentials
+        ├── protected_page.cgi # Example of restricted content
+        └── logout.cgi    # Logout handler
 ```
 
 **Key Points:**
