@@ -8,7 +8,7 @@ server.modules = (
 )
 
 # Document Root and Port
-server.document-root = "/home/user/lighttpd-app/public"
+server.document-root = "/path/to/your/project/public"
 server.port = 8080
 
 $HTTP["scheme"] == "http" {
@@ -28,7 +28,7 @@ $SERVER["socket"] == "0.0.0.0:8443" {
 }
 
 # CGI Configuration
-alias.url += ( "/cgi-bin" => "/home/user/lighttpd-app/public/cgi-bin" )
+alias.url += ( "/cgi-bin" => "/path/to/your/project/public/cgi-bin" )
 
 # Enable CGI only for /cgi-bin
 $HTTP["url"] =~ "^/cgi-bin" {

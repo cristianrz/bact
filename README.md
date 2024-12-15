@@ -70,8 +70,6 @@ are not publicly accessible.
 - **AWK** installed (most systems have `awk` or `gawk` by default).
 - A valid SSL/TLS certificate and private key for HTTPS.
 
----
-
 ### Steps
 
 1. **Setup the Environment:**
