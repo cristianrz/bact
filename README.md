@@ -76,6 +76,11 @@ are not publicly accessible.
 
    - Ensure your `lighttpd.conf` points to the correct document root
      (`public/`) and CGI directory (`cgi-bin/`).
+
+     ```bash
+     cp conf/lighttpd.conf.example conf/lighttpd.conf
+     ```
+
    - Place your certificate and private key in the project root, or update
      `ssl.pemfile` in `conf/lighttpd.conf` with the correct path.
 
@@ -92,11 +97,6 @@ are not publicly accessible.
    - Open a browser and visit:
      - HTTP: `http://localhost:8080/` (Redirects to HTTPS).
      - HTTPS: `https://localhost:8443/`.
-
-   - Use `curl` to test CGI scripts:
-     ```bash
-     curl -v https://localhost:8443/cgi-bin/hello.cgi
-     ```
 
 ## Benefits of the LACT Stack
 
